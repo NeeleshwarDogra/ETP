@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:weightSum="100"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="16"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="240dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Age"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Country"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Club"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Wage"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overall"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Foot"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Position"
+            android:textSize="12.9dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pace"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shooting"
+            android:textSize="12.9dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dribble"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Defense"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passing"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Physical"
+            android:textSize="12.9dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:layout_width="0dp"
+        android:layout_weight="42"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#473058"
+            android:text="Player 1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:id="@+id/face1"
+            android:layout_width="140dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/age1"
+            android:layout_marginTop="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/country1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/club1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/height1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/wage1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/value1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/overall1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/foot1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/position1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/pace1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/shooting1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/dribble1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/defense1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/passing1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/physical1"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:layout_width="0dp"
+        android:layout_weight="42"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/name2"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#473058"
+            android:text="Player 2"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@color/black" />
+
+        <ImageView
+            android:id="@+id/face2"
+            android:layout_width="140dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/age2"
+            android:layout_marginTop="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/country2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/club2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/height2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+        <TextView
+            android:id="@+id/wage2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/value2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/overall2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/foot2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/position2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/pace2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/shooting2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/dribble2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/defense2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/passing2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/physical2"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#FF00FF"
+            android:background="#D3D3D3"
+            android:textAlignment="center" />=
+
+    </LinearLayout>
+
+</LinearLayout>

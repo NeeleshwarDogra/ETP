@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Football</string>
+    <string name="pace">%s PAC</string>
+    <string name="pass">%s PAS</string>
+    <string name="shoot">%s SHO</string>
+    <string name="dribble">%s DRI</string>
+    <string name="def">%s DEF</string>
+    <string name="phy">%s PHY</string>
+</resources>

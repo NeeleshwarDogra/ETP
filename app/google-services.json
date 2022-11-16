@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "506038678316",
+    "firebase_url": "https://etpproject-5deb3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "etpproject-5deb3",
+    "storage_bucket": "etpproject-5deb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:506038678316:android:e1d4e765a86793c47c3289",
+        "android_client_info": {
+          "package_name": "com.example.etp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "506038678316-i3818a9g7su473moecjgtqeukj38l710.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLPoPf32vx76oQdfs3rgduZndFZ01dN04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "506038678316-i3818a9g7su473moecjgtqeukj38l710.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
